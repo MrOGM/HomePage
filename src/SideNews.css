@@ -1,0 +1,64 @@
+.SideNews-C{
+    display: flex;
+    flex-direction: column;
+    background-color: #050412;
+    height: 97.5%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 1rem;
+    padding-bottom: 0;
+    gap: .2rem;
+}
+
+.New-C{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.New-S{
+    font-family: 'Inter-Bold';
+    color: orange;
+    font-size: 3rem;
+}
+
+.title-S{
+    font-family: 'Inter-Bold';
+    color: white;
+    font-size: 1.5rem;
+}
+.title2-S{
+    font-family: 'Inter-Bold';
+    color: orange;
+    font-size: 1.5rem;
+}
+.sub-S{
+    font-family: 'Inter-Regular';
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hr-S{
+    height: 2px;
+    width: 100%;
+    color: white;
+    background-color: gray;
+}
+
+.hrnon-S{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./Styles/assets/fonts/static/Inter-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./Styles/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  }

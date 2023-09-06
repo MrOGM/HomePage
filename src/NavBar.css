@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.NavBar-Container{
+
+    height: 3rem;
+    width:auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.Logo-Container{
+    width: auto;
+    height: 100%;
+}
+.Buttons-Container{
+    display: flex;
+    gap:2rem;
+
+}
+
+
+.ButtonNav-S{
+    font-family: 'Inter-Regular';
+    color: gray;
+    background-color: white;
+
+}
+
+.ButtonHoover-S{
+    color: red;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./Styles/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+        
+  }
+  

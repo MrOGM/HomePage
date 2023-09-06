@@ -1,0 +1,64 @@
+
+.MainNews-C{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: .7rem;
+}
+
+.subHeading-C{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.img-S{
+    grid-column: span 2;
+    width: 100%;
+    
+}
+
+.h1-S{
+    font-family: 'Inter-ExtraBold';
+    font-size: 4.2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subHeading-S{
+    font-family: "Inter-Regular";
+    color: gray;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.btnReadMore-S{
+    font-family: "Inter-Regular";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    letter-spacing: .2rem;
+    height: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.btnred{
+    background-color: red;
+}
+.btnblack{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('./Styles/assets/fonts/static/Inter-ExtraBold.ttf') format('truetype'); 
+  }
+  
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('./Styles/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}

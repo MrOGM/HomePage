@@ -1,0 +1,33 @@
+body{
+  min-height: 100vh;
+  padding: 4rem;
+  padding-left: 8rem;
+  padding-right:8rem ;
+  
+}
+
+.MainSideNews-C{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.doubleF{
+  flex: 2;
+}
+
+.oneF{
+  flex:1
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap:2.5rem;
+}
+
+
+.articles-S{
+  display: inline;
+}
